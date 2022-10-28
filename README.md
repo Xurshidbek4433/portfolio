@@ -1,2 +1,2 @@
 # portfolio
-Mening portfolioyim
+Mening portfolioyim 1.0
