@@ -112,14 +112,14 @@ body {
 
   20% {
     transform: translateX(10px);
-        color: #6e8fc7;
+    color: #6e8fc7;
   }
-  60%{
+  60% {
     transform: translateY(-5px);
     color: #64ffda;
   }
 
-  80%{
+  80% {
     transform: translateX(-20px);
     color: rgb(223, 167, 126);
   }
@@ -146,14 +146,42 @@ body {
   height: 6rem;
   border: 2px solid #64ffda;
   background-color: #020c1b;
-  border-radius: 1rem;
   font-weight: 400;
   font-size: 23px;
   line-height: 34px;
   color: #64ffda;
   cursor: pointer;
-  /* margin-bottom: 16.5rem; */
-}
+  position: relative;
+  }
+
+  .name__btn::before,
+  .name__btn::after{
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border: inherit;
+    transition: all .3s;
+  }
+
+  .name__btn::before{
+    top: -15px;
+    left: -15px;
+    border-width: 3px 0 0 3px;
+  }
+
+  .name__btn::after{
+    bottom: -15px;
+    right: -15px;
+    border-width: 0 3px 3px 0;
+  }
+
+  .name__btn:hover::before,
+  .name__btn:hover::after{
+    width: calc(100%  +  27px);
+    height: calc(100%  +  27px);
+  }
+
 
 .header__svg {
   display: flex;
