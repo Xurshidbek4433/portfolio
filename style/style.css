@@ -626,7 +626,7 @@ body {
   display: flex;
   align-items: center;
   gap: 2rem;
-  width: 122rem;
+  width: 123rem;
 }
 
 .public__slick-inner {
@@ -667,6 +667,8 @@ body {
   border-top-right-radius: 2.5rem;
   background: #1e2d4fbb;
 }
+
+
 
 .public__vector {
   max-width: 125rem;
