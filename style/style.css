@@ -320,6 +320,7 @@ body {
   display: flex;
   align-items: center;
   cursor: pointer;
+  padding: 2rem;
 }
 .left__inner:hover {
   background: rgba(100, 255, 218, 0.2);
