@@ -385,13 +385,13 @@ body {
 
 .team__city-title {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+    align-items: center;
   font-weight: 600;
   font-size: 30px;
   line-height: 45px;
   color: #d9d9d9;
   margin-bottom: 10rem;
+  gap: 2rem;
 }
 
 .team__city-item {
