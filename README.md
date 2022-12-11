@@ -164,7 +164,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Xurshidbek - [linkedin](https://www.linkedin.com/in/xurshidbek-xusanboyev/) - xurshidbekxusanboyev4433@gmail.com
 
-Project Link: https://github.com/Xurshidbek4433/portfolio.git](https://github.com/Xurshidbek4433/portfolio.git)
+Project Link: [https://github.com/Xurshidbek4433/portfolio.git](https://github.com/Xurshidbek4433/portfolio.git)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
